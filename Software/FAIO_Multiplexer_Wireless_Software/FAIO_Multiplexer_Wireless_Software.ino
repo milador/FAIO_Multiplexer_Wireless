@@ -43,6 +43,7 @@
 #define SWITCH_REACTION_TIME 50                                       //Minimum time for each switch action ( level 10 : 1x50 =50ms , level 1 : 10x50=500ms )
 #define SWITCH_MODE_CHANGE_TIME 2000                                  //How long to hold switch 4 to change mode 
 
+
 #define LED_BRIGHTNESS 150                                             //The mode led color brightness which is always on ( Use a low value to decrease power usage )
 #define LED_ACTION_BRIGHTNESS 150                                      //The action led color brightness which can be a higher value than LED_BRIGHTNESS
 
@@ -175,11 +176,12 @@ void setup() {
 
   ledPixels.begin();                                                           //Start NeoPixel
   Serial.begin(115200);                                                        //Start Serial
-  initializeKeyboard("FAIO Multiplexer Wireless");                                    //Starts bluetooth emulation
+  delay(500);
+  initializeHidMorse("FAIO-Multiplexer");                                      //Starts bluetooth emulation
   delay(1000);
   switchSetup();                                                               //Setup switch
   delay(5);
-  initLedFeedback();                                                          //Led will blink in a color to show the current mode 
+  initLedFeedback();                                                           //Led will blink in a color to show the current mode 
   delay(5);
   morseSetup();                                                                //Setup morse
   delay(5);
@@ -198,6 +200,7 @@ void setup() {
 };
 
 void loop() {
+  
   static int ctr;                          //Control variable to set previous status of switches 
   unsigned long timePressed;               //Time that switch one or two are pressed
   unsigned long timeNotPressed;            //Time that switch one or two are not pressed
@@ -251,7 +254,7 @@ void loop() {
         settingsAction(switch1State,switch2State);                                          //Settings mode
         break;
   };
-  ledPixels.show(); 
+  ledPixels.show();
   delay(5);
 }
 
@@ -263,7 +266,7 @@ void displayFeatureList(void) {
   Serial.println(" --- ");
   Serial.println("This is the FAIO Multiplexer USB firmware");
   Serial.println(" ");
-  Serial.println("VERSION: 1.0 (12 April 2020)");
+  Serial.println("VERSION: 1.0 (24 July 2020)");
   Serial.println(" ");
   Serial.println(" --- ");
   Serial.println("Features: Adaptive switch, Morse Keyboard, Morse Mouse");
@@ -478,7 +481,7 @@ void keyboardAction(int switch1,int switch2,int switch3,int switch4) {
     {
       clearKeyboard();
     }
-    delay(5);
+    delay(SWITCH_REACTION_TIME);
 
 }
 
@@ -559,7 +562,9 @@ void morseAction(int mode,int switch1,int switch2) {
   if (timePressed >= msMax && timePressed >= msClear && backspaceDone == 0 &&  mode== 1) {
     previousSwitch1 = HIGH;
     previousSwitch2 = HIGH;
-    if(mode==1) enterKeyboard(0,44);                                                               //Press Backspace key
+    if(mode==1) {
+      enterKeyboard(0,44);                                                                      //Press Backspace key
+    }
     backspaceDone = 1;                                                                          //Set Backspace done already
     isShown = 1;
     for (i=1; i<3; i++) { timeWatcher[i].stop(); timeWatcher[i].reset(); }                      //Stop and reset end of character
@@ -570,7 +575,7 @@ void morseAction(int mode,int switch1,int switch2) {
     if (timeNotPressed >= msMax && timeNotPressed >= msEnd && isShown == 0 && backspaceDone == 0) {
       //Serial.println(morse.getCharNum()); 
       if(mode==1) {
-        enterKeyboard(morse.getBlueModifier(),morse.getBlueChar());                                                  //Enter keyboard key based on ascii code if it's in morse keyboard mode
+        enterKeyboard(morse.getBlueModifier(),morse.getBlueChar());                              //Enter keyboard key based on ascii code if it's in morse keyboard mode
         delay(50);
         clearKeyboard();
       } else if (mode==2) {  
