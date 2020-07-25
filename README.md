@@ -34,7 +34,7 @@ These are all the files and documentation associated with the FAIO Multiplexer W
     <td>FAIO_Multiplexer_Wireless Manual</td>
     <td>Version 1.0</td>
     <td>PDF</td>
-    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/FAIO_Multiplexer_Wireless_Instructions_Manual.pdf">FAIO_Multiplexer_Instructions_Manual.pdf</a></td>
+    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/FAIO_Multiplexer_Wireless_Instructions_Manual.pdf">FAIO_Multiplexer_Wireless_Instructions_Manual.pdf</a></td>
   </tr>
    <tr>
     <td>FAIO_Multiplexer_Wireless User Manual</td>
