@@ -25,8 +25,8 @@ These are all the files and documentation associated with the FAIO Multiplexer W
     <th>Link</th>
   </tr>
     <tr>
-    <td>FAIO Multiplexer All</td>
-    <td>1.0</td>
+    <td>FAIO Multiplexer Wireless All</td>
+    <td>1.1</td>
     <td>ZIP</td>
     <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/archive/master.zip">FAIO_Multiplexer_Wireless-master.zip</a></td>
   </tr>
@@ -68,21 +68,27 @@ These are all the files and documentation associated with the FAIO Multiplexer W
   </tr>
    <tr>
     <td>FAIO_Multiplexer_Wireless Battery Holder enclosure</td>
-    <td>1.0</td>
+    <td>1.1</td>
     <td>STL</td>
-    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Hardware/Housing_design/FAIO_Multiplexer_Body_Battery_Holder.stl">FAIO_Multiplexer_Body_Battery_Holder.stl</a></td>
+    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Hardware/Housing_design/STL/FAIO_Multiplexer_Body_Battery_Holder.stl">FAIO_Multiplexer_Body_Battery_Holder.stl</a></td>
   </tr>
   <tr>
     <td>FAIO_Multiplexer_Wireless Bottom enclosure</td>
-    <td>1.0</td>
+    <td>1.1</td>
     <td>STL</td>
-    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Hardware/Housing_design/FAIO_Multiplexer_Body_Bottom.stl">FAIO_Multiplexer_Body_Bottom.stl</a></td>
+    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Hardware/Housing_design/STL/FAIO_Multiplexer_Body_Bottom.stl">FAIO_Multiplexer_Body_Bottom.stl</a></td>
+  </tr>
+  <tr>
+    <td>FAIO_Multiplexer_Wireless Bottom enclosure with camera mount threaded screw hole</td>
+    <td>1.1</td>
+    <td>STL</td>
+    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Hardware/Housing_design/STL/FAIO_Multiplexer_Body_Bottom_Mount.stl">FAIO_Multiplexer_Body_Bottom_Mount.stl</a></td>
   </tr>
   <tr>
     <td>FAIO_Multiplexer_Wireless Top enclosure</td>
-    <td>1.0</td>
+    <td>1.1</td>
     <td>STL</td>
-    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Hardware/Housing_design/FAIO_Multiplexer_Body_Top.stl">FAIO_Multiplexer_Body_Top.stl</a></td>
+    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Hardware/Housing_design/STL/FAIO_Multiplexer_Body_Top.stl">FAIO_Multiplexer_Body_Top.stl</a></td>
   </tr>
 </table> 
 
