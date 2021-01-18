@@ -1,4 +1,4 @@
-# FAIO_Multiplexer_Wireless
+# FAIO Multiplexer Wireless
 
 FAIO Multiplexer Wireless is an open-source Assistive technology wing for Adafruit Feather boards which enables those with limited or no hand movement to use Adaptive switches as input to operate in multiple input modes.
 
@@ -37,16 +37,16 @@ These are all the files and documentation associated with the FAIO Multiplexer W
     <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/archive/master.zip">FAIO_Multiplexer_Wireless-master.zip</a></td>
   </tr>
   <tr>
-    <td>FAIO_Multiplexer_Wireless Manual</td>
-    <td>Version 1.0</td>
+    <td>FAIO Multiplexer Wireless Instructions Assembly Manual</td>
+    <td>Version 1.1</td>
     <td>PDF</td>
-    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/FAIO_Multiplexer_Wireless_Instructions_Manual.pdf">FAIO_Multiplexer_Wireless_Instructions_Manual.pdf</a></td>
+    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Documentation/Build_Manuals/FAIO_Multiplexer_Wireless_Instructions_Manual.pdf">FAIO_Multiplexer_Wireless_Instructions_Manual.pdf</a></td>
   </tr>
    <tr>
-    <td>FAIO_Multiplexer_Wireless User Manual</td>
-    <td>Version 1.0</td>
+    <td>FAIO Multiplexer Wireless User Manual</td>
+    <td>Version 1.1</td>
     <td>PDF</td>
-    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/FAIO_Multiplexer_Wireless_User_Manual.pdf">FAIO_Multiplexer_Wireless_User_Manual.pdf</a></td>
+    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Documentation/User_Manuals/FAIO_Multiplexer_Wireless_User_Manual.pdf">FAIO_Multiplexer_Wireless_User_Manual.pdf</a></td>
   </tr>
   <tr>
     <td>FAIO_Multiplexer Switch BOM (csv)</td>
@@ -88,7 +88,7 @@ These are all the files and documentation associated with the FAIO Multiplexer W
     <td>FAIO_Multiplexer_Wireless Bottom enclosure with camera mount threaded screw hole</td>
     <td>1.1</td>
     <td>STL</td>
-    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Hardware/Housing_design/STL/FAIO_Multiplexer_Body_Bottom_Mount.stl">FAIO_Multiplexer_Body_Bottom_Mount.stl</a></td>
+    <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Hardware/Housing_design/STL/FAIO_Multiplexer_Body_Bottom_With_Mount.stl">FAIO_Multiplexer_Body_Bottom_With_Mount.stl</a></td>
   </tr>
   <tr>
     <td>FAIO_Multiplexer_Wireless Top enclosure</td>
