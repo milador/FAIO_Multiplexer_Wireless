@@ -49,49 +49,49 @@ These are all the files and documentation associated with the FAIO Multiplexer W
     <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Documentation/User_Manuals/FAIO_Multiplexer_Wireless_User_Manual.pdf">FAIO_Multiplexer_Wireless_User_Manual.pdf</a></td>
   </tr>
   <tr>
-    <td>FAIO_Multiplexer Switch BOM (csv)</td>
+    <td>FAIO Multiplexer Switch BOM (csv)</td>
     <td>July 24, 2020</td>
     <td>CSV</td>
     <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Components/FAIO_Multiplexer_Wireless_BOM.csv">FAIO_Multiplexer_Wireless_BOM.csv</a></td>
   </tr>
   <tr>
-    <td>FAIO_Multiplexer_Wireless Switch Software</td>
+    <td>FAIO Multiplexer Wireless Switch Software</td>
     <td>1.0</td>
     <td>Ino</td>
     <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/raw/master/Software/FAIO_Multiplexer_Wireless_Software/FAIO_Multiplexer_Wireless_Software.ino">FAIO_Multiplexer_Wireless_Software.ino</a></td>
   </tr>
   <tr>
-    <td>FAIO_Multiplexer_Wireless Switch Board Layout</td>
+    <td>FAIO Multiplexer Wireless Switch Board Layout</td>
     <td>1.0</td>
     <td>BRD</td>
     <td><a href="https://raw.githubusercontent.com/milador/FAIO_Multiplexer_Wireless/master/Hardware/PCB_design/FAIO_Multiplexer.brd">FAIO_Multiplexer.brd</a></td>
   </tr>
   <tr>
-    <td>FAIO_Multiplexer_Wireless Switch Board Schematic</td>
+    <td>FAIO Multiplexer Wireless Switch Board Schematic</td>
     <td>1.0</td>
     <td>SCH</td>
     <td><a href="https://raw.githubusercontent.com/milador/FAIO_Multiplexer_Wireless/master/Hardware/PCB_design/FAIO_Multiplexer.sch">FAIO_Multiplexer.sch</a></td>
   </tr>
    <tr>
-    <td>FAIO_Multiplexer_Wireless Battery Holder enclosure</td>
+    <td>FAIO Multiplexer Wireless Battery Holder enclosure</td>
     <td>1.1</td>
     <td>STL</td>
     <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Hardware/Housing_design/STL/FAIO_Multiplexer_Body_Battery_Holder.stl">FAIO_Multiplexer_Body_Battery_Holder.stl</a></td>
   </tr>
   <tr>
-    <td>FAIO_Multiplexer_Wireless Bottom enclosure</td>
+    <td>FAIO Multiplexer Wireless Bottom enclosure</td>
     <td>1.1</td>
     <td>STL</td>
     <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Hardware/Housing_design/STL/FAIO_Multiplexer_Body_Bottom.stl">FAIO_Multiplexer_Body_Bottom.stl</a></td>
   </tr>
   <tr>
-    <td>FAIO_Multiplexer_Wireless Bottom enclosure with camera mount threaded screw hole</td>
+    <td>FAIO Multiplexer Wireless Bottom enclosure with camera mount threaded screw hole</td>
     <td>1.1</td>
     <td>STL</td>
     <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Hardware/Housing_design/STL/FAIO_Multiplexer_Body_Bottom_With_Mount.stl">FAIO_Multiplexer_Body_Bottom_With_Mount.stl</a></td>
   </tr>
   <tr>
-    <td>FAIO_Multiplexer_Wireless Top enclosure</td>
+    <td>FAIO Multiplexer Wireless Top enclosure</td>
     <td>1.1</td>
     <td>STL</td>
     <td><a href="https://github.com/milador/FAIO_Multiplexer_Wireless/blob/master/Hardware/Housing_design/STL/FAIO_Multiplexer_Body_Top.stl">FAIO_Multiplexer_Body_Top.stl</a></td>
